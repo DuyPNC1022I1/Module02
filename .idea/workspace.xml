@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baitapmodule02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Khaibaosudungbien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Sudungtoantu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/SystermTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Giaiphuongtrinhbacnhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Hienthiloichao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Kiemtranamnhuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhchisocannangcothe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhsongaytrongthang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +46,13 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SystermTime">
-    <configuration name="Khaibaosudungbien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Khaibaosudungbien" />
+  <component name="RunManager" selected="Application.Hienthiloichao">
+    <configuration name="Giaiphuongtrinhbacnhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Giaiphuongtrinhbacnhat" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +64,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystermTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.SystermTime" />
+    <configuration name="Hienthiloichao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Hienthiloichao" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IntroductiontoJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kiemtranamnhuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Kiemtranamnhuan" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IntroductiontoJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tinhchisocannangcothe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Tinhchisocannangcothe" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IntroductiontoJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tinhsongaytrongthang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Tinhsongaytrongthang" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SystermTime" />
-        <item itemvalue="Application.Khaibaosudungbien" />
+        <item itemvalue="Application.Hienthiloichao" />
+        <item itemvalue="Application.Tinhchisocannangcothe" />
+        <item itemvalue="Application.Kiemtranamnhuan" />
+        <item itemvalue="Application.Tinhsongaytrongthang" />
+        <item itemvalue="Application.Giaiphuongtrinhbacnhat" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669998640688</updated>
-      <workItem from="1669998641834" duration="652000" />
+      <workItem from="1669998641834" duration="7149000" />
     </task>
     <servers />
   </component>
