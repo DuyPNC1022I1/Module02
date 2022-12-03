@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Giaiphuongtrinhbacnhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Hienthiloichao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Kiemtranamnhuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhchisocannangcothe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhsongaytrongthang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Chuyendoitiente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Ungdungchuyensothanhchu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Hienthiloichao">
-    <configuration name="Giaiphuongtrinhbacnhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Giaiphuongtrinhbacnhat" />
+}</component>
+  <component name="RunManager" selected="Application.Ungdungchuyensothanhchu">
+    <configuration name="Chuyendoitiente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Chuyendoitiente" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tinhsongaytrongthang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Tinhsongaytrongthang" />
+    <configuration name="Ungdungchuyensothanhchu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Ungdungchuyensothanhchu" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ungdungchuyensothanhchu" />
+        <item itemvalue="Application.Chuyendoitiente" />
         <item itemvalue="Application.Hienthiloichao" />
         <item itemvalue="Application.Tinhchisocannangcothe" />
         <item itemvalue="Application.Kiemtranamnhuan" />
-        <item itemvalue="Application.Tinhsongaytrongthang" />
-        <item itemvalue="Application.Giaiphuongtrinhbacnhat" />
       </list>
     </recent_temporary>
   </component>
@@ -134,11 +130,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669998640688</updated>
-      <workItem from="1669998641834" duration="7149000" />
+      <workItem from="1669998641834" duration="7756000" />
+      <workItem from="1670037367708" duration="1115000" />
+      <workItem from="1670085506156" duration="3721000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/IntroductiontoJava/Chuyendoitiente.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
