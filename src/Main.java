@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     //public: quy định về phạm vi sử dụng của thành phần được đánh dấu
     //static: từ khóa quy định thành phần static, là thành phần thuộc về lớp
@@ -12,5 +14,7 @@ public class Main {
     //là thành phần được JVM tìm đến đầu tiên khi khởi chạy chương trình Java
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        Scanner scanner = new Scanner(System.in); //Tạo đối tượng input thuộc lớp Scanner để thực hiện nhập dữ liệu từ bàn phím
+        System.out.println("Nhập vào...");
     }
 }

@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Chuyendoitiente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Ungdungchuyensothanhchu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vonglap/Kiemtrasonguyento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vonglap/Timuocsochunglonnhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vonglap/Tinhtienlaichovay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhchisocannangcothe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhchisocannangcothe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +49,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ungdungchuyensothanhchu">
+  <component name="RunManager" selected="Application.Timuocsochunglonnhat">
     <configuration name="Chuyendoitiente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Chuyendoitiente" />
-      <module name="Baitapmodule02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IntroductiontoJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hienthiloichao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Hienthiloichao" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +76,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tinhchisocannangcothe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Tinhchisocannangcothe" />
+    <configuration name="Kiemtrasonguyento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vonglap.Kiemtrasonguyento" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IntroductiontoJava.*" />
+          <option name="PATTERN" value="Vonglap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Timuocsochunglonnhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vonglap.Timuocsochunglonnhat" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Vonglap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Timuocsochunglonnhat" />
         <item itemvalue="Application.Ungdungchuyensothanhchu" />
-        <item itemvalue="Application.Chuyendoitiente" />
-        <item itemvalue="Application.Hienthiloichao" />
-        <item itemvalue="Application.Tinhchisocannangcothe" />
         <item itemvalue="Application.Kiemtranamnhuan" />
+        <item itemvalue="Application.Kiemtrasonguyento" />
+        <item itemvalue="Application.Chuyendoitiente" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +135,8 @@
       <updated>1669998640688</updated>
       <workItem from="1669998641834" duration="7756000" />
       <workItem from="1670037367708" duration="1115000" />
-      <workItem from="1670085506156" duration="3721000" />
+      <workItem from="1670085506156" duration="4320000" />
+      <workItem from="1670205486034" duration="9047000" />
     </task>
     <servers />
   </component>
