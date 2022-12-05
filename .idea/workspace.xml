@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Vonglap/Kiemtrasonguyento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vonglap/Timuocsochunglonnhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vonglap/Tinhtienlaichovay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vonglap/Hienthi20songuyentodautien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vonglap/Hienthicacloaihinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vonglap/Hienthicacsonguyentonhohon100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vonglap/Thietkemenuchoungdung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhchisocannangcothe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhchisocannangcothe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Vonglap/Hienthi20songuyentodautien.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,13 +51,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Timuocsochunglonnhat">
-    <configuration name="Chuyendoitiente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Chuyendoitiente" />
+  <component name="RunManager" selected="Application.Hienthicacsonguyentonhohon100">
+    <configuration name="Hienthi20songuyentodautien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vonglap.Hienthi20songuyentodautien" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IntroductiontoJava.*" />
+          <option name="PATTERN" value="Vonglap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kiemtranamnhuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Kiemtranamnhuan" />
+    <configuration name="Hienthicacloaihinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vonglap.Hienthicacloaihinh" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IntroductiontoJava.*" />
+          <option name="PATTERN" value="Vonglap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kiemtrasonguyento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Vonglap.Kiemtrasonguyento" />
+    <configuration name="Hienthicacsonguyentonhohon100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vonglap.Hienthicacsonguyentonhohon100" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hienthicacsonguyentonhohon100" />
+        <item itemvalue="Application.Hienthi20songuyentodautien" />
+        <item itemvalue="Application.Hienthicacloaihinh" />
         <item itemvalue="Application.Timuocsochunglonnhat" />
         <item itemvalue="Application.Ungdungchuyensothanhchu" />
-        <item itemvalue="Application.Kiemtranamnhuan" />
-        <item itemvalue="Application.Kiemtrasonguyento" />
-        <item itemvalue="Application.Chuyendoitiente" />
       </list>
     </recent_temporary>
   </component>
@@ -136,12 +138,26 @@
       <workItem from="1669998641834" duration="7756000" />
       <workItem from="1670037367708" duration="1115000" />
       <workItem from="1670085506156" duration="4320000" />
-      <workItem from="1670205486034" duration="9047000" />
+      <workItem from="1670205486034" duration="10116000" />
+      <workItem from="1670227881529" duration="7962000" />
+      <workItem from="1670247073249" duration="6798000" />
+      <workItem from="1670255410654" duration="840000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
