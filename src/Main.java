@@ -17,10 +17,4 @@ public class Main {
         Scanner scanner = new Scanner(System.in); //Tạo đối tượng input thuộc lớp Scanner để thực hiện nhập dữ liệu từ bàn phím
         System.out.println("Nhập vào...");
     }
-
-    public static void printArray(int[] array) {
-        for ( int i = 0; i < array.length; i++) {
-            System.out.println(array[i] + " ");
-        }
-    }
 }
