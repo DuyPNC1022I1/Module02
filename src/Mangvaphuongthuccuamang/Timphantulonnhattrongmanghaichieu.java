@@ -29,6 +29,6 @@ public class Timphantulonnhattrongmanghaichieu {
                 }
             }
         }
-        System.out.println("Giá trị lớn nhất là max: "+ max + "Có tọa độ là " + "[" + index1 + "]" + "[" + index2+ "]" );
+        System.out.println("Giá trị lớn nhất là max: " + max + "Có tọa độ là " + "[" + index1 + "]" + "[" + index2 + "]");
     }
 }

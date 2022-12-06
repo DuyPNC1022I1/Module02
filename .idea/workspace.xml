@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Gopmang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Themcacphantuvaomang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Timphantulonnhattrongmanghaichieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Timgiatrimintrongmang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Timphantulonnhattrongmanghaichieu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Timphantulonnhattrongmanghaichieu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Timphantulonnhattrongmanghaichieu">
+  <component name="RunManager" selected="Application.Timgiatrimintrongmang">
     <configuration name="Gopmang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mangvaphuongthuccuamang.Gopmang" />
       <module name="Baitapmodule02" />
@@ -86,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Timgiatrimintrongmang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mangvaphuongthuccuamang.Timgiatrimintrongmang" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mangvaphuongthuccuamang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Timphantulonnhattrongmanghaichieu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mangvaphuongthuccuamang.Timphantulonnhattrongmanghaichieu" />
       <module name="Baitapmodule02" />
@@ -99,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xoaphantukhoimang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mangvaphuongthuccuamang.Xoaphantukhoimang" />
-      <module name="Baitapmodule02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mangvaphuongthuccuamang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Timgiatrimintrongmang" />
         <item itemvalue="Application.Timphantulonnhattrongmanghaichieu" />
         <item itemvalue="Application.Gopmang" />
         <item itemvalue="Application.Themcacphantuvaomang" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Xoaphantukhoimang" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +136,8 @@
       <workItem from="1670247073249" duration="6798000" />
       <workItem from="1670255410654" duration="3539000" />
       <workItem from="1670288276436" duration="13901000" />
-      <workItem from="1670313443583" duration="7773000" />
+      <workItem from="1670313443583" duration="8137000" />
+      <workItem from="1670343880533" duration="2745000" />
     </task>
     <servers />
   </component>
