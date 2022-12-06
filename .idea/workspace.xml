@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Vonglap/Hienthi20songuyentodautien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vonglap/Hienthicacloaihinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vonglap/Hienthicacsonguyentonhohon100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vonglap/Thietkemenuchoungdung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Daonguocphantutrongmang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Timgiatrilonnhatrongmang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Timgiatritrongmang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +51,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Hienthicacsonguyentonhohon100">
-    <configuration name="Hienthi20songuyentodautien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Vonglap.Hienthi20songuyentodautien" />
+  <component name="RunManager" selected="Application.Timgiatrilonnhatrongmang">
+    <configuration name="Daonguocphantutrongmang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mangvaphuongthuccuamang.Daonguocphantutrongmang" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Vonglap.*" />
+          <option name="PATTERN" value="Mangvaphuongthuccuamang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hienthicacloaihinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Vonglap.Hienthicacloaihinh" />
+    <configuration name="Hienthi20songuyentodautien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vonglap.Hienthi20songuyentodautien" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Timuocsochunglonnhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Vonglap.Timuocsochunglonnhat" />
+    <configuration name="Timgiatrilonnhatrongmang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mangvaphuongthuccuamang.Timgiatrilonnhatrongmang" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Vonglap.*" />
+          <option name="PATTERN" value="Mangvaphuongthuccuamang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ungdungchuyensothanhchu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductiontoJava.Ungdungchuyensothanhchu" />
+    <configuration name="Timgiatritrongmang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mangvaphuongthuccuamang.Timgiatritrongmang" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IntroductiontoJava.*" />
+          <option name="PATTERN" value="Mangvaphuongthuccuamang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Timgiatrilonnhatrongmang" />
+        <item itemvalue="Application.Timgiatritrongmang" />
+        <item itemvalue="Application.Daonguocphantutrongmang" />
         <item itemvalue="Application.Hienthicacsonguyentonhohon100" />
         <item itemvalue="Application.Hienthi20songuyentodautien" />
-        <item itemvalue="Application.Hienthicacloaihinh" />
-        <item itemvalue="Application.Timuocsochunglonnhat" />
-        <item itemvalue="Application.Ungdungchuyensothanhchu" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,8 @@
       <workItem from="1670205486034" duration="10116000" />
       <workItem from="1670227881529" duration="7962000" />
       <workItem from="1670247073249" duration="6798000" />
-      <workItem from="1670255410654" duration="840000" />
+      <workItem from="1670255410654" duration="3539000" />
+      <workItem from="1670288276436" duration="6103000" />
     </task>
     <servers />
   </component>
