@@ -1,20 +1,44 @@
+import Lopvadoituong.Lophinhchunhat;
+import Lopvadoituong.QuadraticEquation;
+import Lopvadoituong.XaydunglopFan;
+import Mangvaphuongthuccuamang.Gopmang;
+
 import java.util.Scanner;
 
 public class Main {
-    //public: quy định về phạm vi sử dụng của thành phần được đánh dấu
+    //public: quy định về phạm vi sử dụng của thành phần được đánh dấu, thường được dùng để nội dung trong class có thể được truy cập từ các lớp khác
     //static: từ khóa quy định thành phần static, là thành phần thuộc về lớp
     //void: kiểu dữ liệu trả về của phương thức
     //main: tên của phương thức
     //String[] args: tham số của phương thức;
-    //args = arguments; String[]: kiểu dữ liệu mảng String
+    //args = arguments;
+    // String[]: kiểu dữ liệu mảng String
 
     //javac Demo: chuyển từ mã .java => .class
     //java Demo.class: chạy file bytecode của Java trong cmd
     //psvm / main / public static void main(String[] args): được gọi là siêu main của 1 chương trình Java
     //là thành phần được JVM tìm đến đầu tiên khi khởi chạy chương trình Java
+//        String name; // name có giá trị mặc định là null
+//        int age; // age có giá trị mặc định là 0
+//        boolean isScienceMajor; // isScienceMajor có giá trị mặc định là false
+//        char gender; // gender có giá trị mặc định là '\u0000'
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        Scanner scanner = new Scanner(System.in); //Tạo đối tượng input thuộc lớp Scanner để thực hiện nhập dữ liệu từ bàn phím
-        System.out.println("Nhập vào...");
+        //Tạo đối tuợng Fan1
+        XaydunglopFan fan1 = new XaydunglopFan();
+        fan1.setSpeed(3);
+        fan1.setRadius(10);
+        fan1.setColor("Yellow");
+        fan1.setOn(true);
+
+        //Tạo đối tượng Fan2
+        XaydunglopFan fan2 = new XaydunglopFan();
+        fan2.setSpeed(2);
+        fan2.setRadius(5);
+        fan2.setColor("Blue");
+        fan2.setOn(false);
+
+        // Hiển thị các đối tượng:
+        System.out.println(fan1.toString());
+        System.out.println(fan2.toString());
     }
 }
