@@ -22,23 +22,6 @@ public class Main {
 //        int age; // age có giá trị mặc định là 0
 //        boolean isScienceMajor; // isScienceMajor có giá trị mặc định là false
 //        char gender; // gender có giá trị mặc định là '\u0000'
-    public static void main(String[] args) {
-        //Tạo đối tuợng Fan1
-        XaydunglopFan fan1 = new XaydunglopFan();
-        fan1.setSpeed(3);
-        fan1.setRadius(10);
-        fan1.setColor("Yellow");
-        fan1.setOn(true);
-
-        //Tạo đối tượng Fan2
-        XaydunglopFan fan2 = new XaydunglopFan();
-        fan2.setSpeed(2);
-        fan2.setRadius(5);
-        fan2.setColor("Blue");
-        fan2.setOn(false);
-
-        // Hiển thị các đối tượng:
-        System.out.println(fan1.toString());
-        System.out.println(fan2.toString());
+    static public void main(String[] args) {
     }
 }
