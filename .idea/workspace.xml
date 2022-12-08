@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/staticmethodproperty/Staticproperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/staticmethodproperty/TestStaticProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticmethodproperty/AccessModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticmethodproperty/TestCircle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +49,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestStaticProperty">
+  <component name="RunManager" selected="Application.TestCircle">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Baitapmodule02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticmethodproperty.TestCircle" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticmethodproperty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Timphantulonnhattrongmanghaichieu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mangvaphuongthuccuamang.Timphantulonnhattrongmanghaichieu" />
-      <module name="Baitapmodule02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mangvaphuongthuccuamang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.TestStaticProperty" />
         <item itemvalue="Application.TestStaticMethod" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Timgiatrimintrongmang" />
-        <item itemvalue="Application.Timphantulonnhattrongmanghaichieu" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,7 @@
       <workItem from="1670343880533" duration="3998000" />
       <workItem from="1670375874212" duration="14730000" />
       <workItem from="1670426595419" duration="5840000" />
-      <workItem from="1670462764868" duration="6629000" />
+      <workItem from="1670462764868" duration="7558000" />
     </task>
     <servers />
   </component>
@@ -164,6 +164,15 @@
           <url>file://$PROJECT_DIR$/src/IntroductiontoJava/Chuyendoitiente.java</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/staticmethodproperty/TestCircle.java</url>
+          <line>5</line>
+          <properties class="staticmethodproperty.TestCircle" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
