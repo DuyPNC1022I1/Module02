@@ -8,7 +8,7 @@ public class Timgiatritrongmang {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the name: ");
         String name = input.nextLine();
-        boolean flag = true;
+        boolean flag = false;
         for (int i = 0; i < students.length; i++) {
             if (students[i].equals(name)) {
                 flag = true;

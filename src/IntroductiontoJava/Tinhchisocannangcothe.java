@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Tinhchisocannangcothe {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Nhập vào cân nặng: ");
         double weight = scanner.nextDouble();
-
         System.out.println("Nhập vào chiều cao: ");
         double height = scanner.nextDouble();
 
