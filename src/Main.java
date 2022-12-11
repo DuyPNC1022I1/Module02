@@ -1,4 +1,5 @@
 import kethua.Cylinder;
+import kethua.Point3D;
 
 public class Main {
     //public: quy định về phạm vi sử dụng của thành phần được đánh dấu, thường được dùng để nội dung trong class có thể được truy cập từ các lớp khác
@@ -19,7 +20,5 @@ public class Main {
     // boolean isScienceMajor; // isScienceMajor có giá trị mặc định là false
     // char gender; // gender có giá trị mặc định là '\u0000'
     static public void main(String[] args) {
-        Cylinder test = new Cylinder();
-        System.out.println(test);
     }
 }
