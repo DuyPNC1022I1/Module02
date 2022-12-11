@@ -35,9 +35,6 @@ public class StudentManager {
                 System.out.println("Sinh viên có điểm cao nhất là: " + arrayStudent[index]);
             }
         }
-        for (int i = 0; i < ; i++) {
-            
-        }
 
         //Hiển thị sinh viên có điểm thấp nhất:
         //Tìm điểm thấp nhất

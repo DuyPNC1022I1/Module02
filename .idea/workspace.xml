@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/minitest02/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitest02/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitestweek01/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitestweek01/TestMiniTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Hecacdoituonghinhoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhchisocannangcothe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductiontoJava/Tinhchisocannangcothe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Themcacphantuvaomang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Themcacphantuvaomang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Timgiatritrongmang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mangvaphuongthuccuamang/Timgiatritrongmang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minitest02/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minitest02/StudentManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +54,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StudentManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Baitapmodule02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="minitest02.StudentManager" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="minitest02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="staticmethodproperty.Test" />
-      <module name="Baitapmodule02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="staticmethodproperty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.StudentManager" />
         <item itemvalue="Application.TestMiniTest" />
         <item itemvalue="Application.Timgiatritrongmang" />
         <item itemvalue="Application.Tinhchisocannangcothe" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +147,7 @@
       <workItem from="1670462764868" duration="11322000" />
       <workItem from="1670515073354" duration="2487000" />
       <workItem from="1670593823531" duration="15168000" />
+      <workItem from="1670775515384" duration="3252000" />
     </task>
     <servers />
   </component>
