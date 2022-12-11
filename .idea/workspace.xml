@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kethua/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kethua/Hecacdoituonghinhoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kethua/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kethua/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Circle1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Cylinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minitest02/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minitest02/StudentManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +144,7 @@
       <workItem from="1670462764868" duration="11322000" />
       <workItem from="1670515073354" duration="2487000" />
       <workItem from="1670593823531" duration="15168000" />
-      <workItem from="1670775515384" duration="3252000" />
+      <workItem from="1670775515384" duration="4502000" />
     </task>
     <servers />
   </component>
