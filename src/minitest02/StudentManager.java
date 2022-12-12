@@ -59,6 +59,7 @@ public class StudentManager {
         Scanner input = new Scanner(System.in);
         System.out.println("Nhập tên sinh viên cần tìm tại đây: ");
         String nameSearch = input.nextLine();
+
         //Tìm sinh viên có tên giống từ khóa tìm kiếm:
         boolean flag = false;
         for (int i = 0; i < arrayStudent.length; i++) {
@@ -95,7 +96,7 @@ public class StudentManager {
         for (int i = 0; i < newArray.length; i++) {
             System.out.println("Thông tin sinh viên thứ" + i + "là: " + "\t" + newArray[i]);
         }
-        
+
         // Xóa 1 sinh viên
         System.out.println("Danh sách sinh viên sau khi thay đổi: Xóa 1 sinh viên là: ");
         //Nhập vào từ bàn phím tên sinh viên cần xóa
