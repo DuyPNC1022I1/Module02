@@ -1,6 +1,6 @@
 package abstractandinterface;
 
-public class Fruit implements Edible {
+public abstract class Fruit implements Edible {
 
     @Override
     public String howToEat() {

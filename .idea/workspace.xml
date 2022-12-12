@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Animal1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/ComparableCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minitest02/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minitest02/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractandinterface/Fruit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +147,8 @@
       <workItem from="1670515073354" duration="2487000" />
       <workItem from="1670593823531" duration="15168000" />
       <workItem from="1670775515384" duration="9025000" />
-      <workItem from="1670807373793" duration="8827000" />
+      <workItem from="1670807373793" duration="12363000" />
+      <workItem from="1670857343789" duration="1855000" />
     </task>
     <servers />
   </component>
@@ -176,11 +173,6 @@
           <url>file://$PROJECT_DIR$/src/IntroductiontoJava/Chuyendoitiente.java</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
