@@ -1,6 +1,6 @@
 package abstractandinterface;
 
-public class Circle {
+public abstract class Circle {
     public double radius;
     public String color;
     public boolean filled;
@@ -29,4 +29,6 @@ public class Circle {
     public boolean isFilled() {
         return filled;
     }
+
+    public abstract int compareTo(ComparableCircle o);
 }

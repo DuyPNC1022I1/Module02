@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Colorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractandinterface/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest2/StudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lopvadoituong/Lophinhchunhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lopvadoituong/Lophinhchunhat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractandinterface/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/CircleComparator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractandinterface/CircleComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/Comparable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/ComparableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractandinterface/ComparableCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/Comparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minitest02/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minitest02/StudentManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.SquareTest">
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="abstractandinterface" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MiniTest2.Main">
     <configuration name="Circle3Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractandinterface.Circle3Test" />
       <module name="Baitapmodule02" />
@@ -70,6 +82,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Baitapmodule02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiniTest2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiniTest2.Main" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MiniTest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMiniTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minitestweek01.TestMiniTest" />
-      <module name="Baitapmodule02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="minitestweek01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiniTest2.Main" />
         <item itemvalue="Application.SquareTest" />
         <item itemvalue="Application.Circle3Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StudentManager" />
-        <item itemvalue="Application.TestMiniTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +160,9 @@
       <workItem from="1670593823531" duration="15168000" />
       <workItem from="1670775515384" duration="9025000" />
       <workItem from="1670807373793" duration="12363000" />
-      <workItem from="1670857343789" duration="6951000" />
+      <workItem from="1670857343789" duration="10928000" />
+      <workItem from="1670871261601" duration="2558000" />
+      <workItem from="1670894661627" duration="18644000" />
     </task>
     <servers />
   </component>

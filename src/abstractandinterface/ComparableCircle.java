@@ -25,4 +25,9 @@ public class ComparableCircle extends Circle implements Comparable {
             return 0;
         }
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

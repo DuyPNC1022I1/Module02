@@ -1,6 +1,5 @@
 package minitest02;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class StudentManager {
@@ -39,9 +38,9 @@ public class StudentManager {
         //Hiển thị sinh viên có điểm thấp nhất:
         //Tìm điểm thấp nhất
         int minScore = arrayStudent[0].getScoreAverage();
-        for (int i = 0; i < arrayStudent.length; i++) {
-            if (minScore > arrayStudent[i].getScoreAverage()) {
-                minScore = arrayStudent[i].getScoreAverage();
+        for (Student student : arrayStudent) {
+            if (minScore > student.getScoreAverage()) {
+                minScore = student.getScoreAverage();
             }
         }
         System.out.println("Điểm thấp nhất lớp là: " + minScore);
@@ -62,10 +61,10 @@ public class StudentManager {
 
         //Tìm sinh viên có tên giống từ khóa tìm kiếm:
         boolean flag = false;
-        for (int i = 0; i < arrayStudent.length; i++) {
-            if (nameSearch.equals(arrayStudent[i].getName())) {
-               flag = true;
-                System.out.println("Sinh viên có tên giống từ khóa cần tìm là: " + arrayStudent[i]);
+        for (Student student : arrayStudent) {
+            if (nameSearch.equals(student.getName())) {
+                flag = true;
+                System.out.println("Sinh viên có tên giống từ khóa cần tìm là: " + student);
             }
         }
         if(!flag) {
@@ -115,5 +114,6 @@ public class StudentManager {
         if (!flag) {
             System.out.println("Không tìm thấy sinh viên có tên vừa nhập!");
         }
+
     }
 }

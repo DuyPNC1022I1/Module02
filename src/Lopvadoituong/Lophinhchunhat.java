@@ -5,7 +5,6 @@ public class Lophinhchunhat {
     int height;
     public Lophinhchunhat(){
     }
-
     public Lophinhchunhat(int width, int height) {
         this.width = width;
         this.height = height;
