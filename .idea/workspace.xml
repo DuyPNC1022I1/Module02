@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MiniTest2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniTest2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniTest2/StudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lopvadoituong/Lophinhchunhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lopvadoituong/Lophinhchunhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractandinterface/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/CircleComparator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractandinterface/CircleComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/Comparable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/ComparableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractandinterface/ComparableCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractandinterface/Comparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minitest02/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minitest02/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiniTest2/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniTest2/StudentManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +153,8 @@
       <workItem from="1670807373793" duration="12363000" />
       <workItem from="1670857343789" duration="10928000" />
       <workItem from="1670871261601" duration="2558000" />
-      <workItem from="1670894661627" duration="18644000" />
+      <workItem from="1670894661627" duration="20614000" />
+      <workItem from="1670979855718" duration="16000" />
     </task>
     <servers />
   </component>

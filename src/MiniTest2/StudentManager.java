@@ -75,7 +75,7 @@ public class StudentManager extends Student {
     public static void addStudent(Student[] array, int n) {
         Student[] newArray = new Student[n];
         if (newArray.length - 1 >= 0) System.arraycopy(array, 0, newArray, 0, newArray.length - 1);
-        newArray[n] = creatStudent();
+        newArray[n-1] = creatStudent();
         for (int i = 0; i < newArray.length; i++) {
             System.out.println("Thông tin sinh viên thứ" + i + "là: " + "\t" + newArray[i]);
         }
@@ -95,11 +95,9 @@ public class StudentManager extends Student {
                 indexDelete = i;
             }
         }
-        for (Student student : newArrayAfterDelete) {
-            if (nameDelete.equals(student.getName())) {
+        for (int i = 0; i < newArrayAfterDelete.length ; i++) {
                 System.arraycopy(array, 0, newArrayAfterDelete, 0, indexDelete);
-                System.arraycopy(array, indexDelete + 1, newArrayAfterDelete, indexDelete, (newArrayAfterDelete.length - 1 - indexDelete));
-            }
+                System.arraycopy(array, indexDelete + 1, newArrayAfterDelete, indexDelete, (newArrayAfterDelete.length - indexDelete));
         }
         System.out.println("Danh sách sinh viên sau khi xóa là: ");
         for (Student student : newArrayAfterDelete) {
@@ -131,8 +129,6 @@ public class StudentManager extends Student {
         for (int i = 0; i < array.length; i++) {
             if (genderSearch.equals(array[i].getGender())) {
                 System.out.println("Sinh viên có giới tính Male là" + i + array[i]);
-            } else {
-                System.out.println("Sinh viên có giới tính Female là: " + i + array[i]);
             }
         }
     }
