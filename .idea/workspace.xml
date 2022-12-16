@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arraylist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraylist/MyListNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraylist/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minitestreload/MainStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minitestreload/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minitestreload/StudentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackandqueue/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackandqueue/MyGenericStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arraylist/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraylist/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arraylist/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraylist/MyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraylist/MyListNew.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +62,13 @@
       <recent name="abstractandinterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyListTest">
-    <configuration name="Circle3Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractandinterface.Circle3Test" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="MainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minitestreload.MainStudent" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstractandinterface.*" />
+          <option name="PATTERN" value="minitestreload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MainStudent" />
+        <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.MiniTest2.Main" />
         <item itemvalue="Application.SquareTest" />
-        <item itemvalue="Application.Circle3Test" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +163,9 @@
       <workItem from="1670979855718" duration="16000" />
       <workItem from="1671006801449" duration="3603000" />
       <workItem from="1671027270570" duration="6983000" />
-      <workItem from="1671066811858" duration="13829000" />
+      <workItem from="1671066811858" duration="18737000" />
+      <workItem from="1671119834945" duration="3037000" />
+      <workItem from="1671155227655" duration="6518000" />
     </task>
     <servers />
   </component>
@@ -192,6 +195,11 @@
           <url>file://$PROJECT_DIR$/src/arraylist/MyListTest.java</url>
           <line>4</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/minitestreload/MainStudent.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
