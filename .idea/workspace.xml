@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/minitestreload/MainStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitestreload/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minitestreload/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/GenericStackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/MyGenericStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arraylist/MyListNew.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackandqueue/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackandqueue/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackandqueue/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +160,7 @@
       <workItem from="1671027270570" duration="6983000" />
       <workItem from="1671066811858" duration="18737000" />
       <workItem from="1671119834945" duration="3037000" />
-      <workItem from="1671155227655" duration="6518000" />
+      <workItem from="1671155227655" duration="6890000" />
     </task>
     <servers />
   </component>
