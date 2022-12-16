@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/MyLinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackandqueue/MainStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,20 @@
       <recent name="abstractandinterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.MainStack">
+    <configuration name="MainStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stackandqueue.MainStack" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stackandqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="minitestreload.MainStudent" />
       <module name="Baitapmodule02" />
@@ -97,19 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractandinterface.SquareTest" />
-      <module name="Baitapmodule02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="abstractandinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Baitapmodule02" />
@@ -119,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainStack" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MainStudent" />
         <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.MiniTest2.Main" />
-        <item itemvalue="Application.SquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +159,7 @@
       <workItem from="1671027270570" duration="6983000" />
       <workItem from="1671066811858" duration="18737000" />
       <workItem from="1671119834945" duration="3037000" />
-      <workItem from="1671155227655" duration="6890000" />
+      <workItem from="1671155227655" duration="14126000" />
     </task>
     <servers />
   </component>
