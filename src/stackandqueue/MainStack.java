@@ -25,10 +25,9 @@ public class MainStack {
         for (int i = 0; i < arrayMword.length ; i++) {
             wStack.push(arrayMword[i]);
         }
-        //Nối mWord vào cuối chuỗi mới outp
         Stack<String> outP = new Stack<>();
         for (int i = 0; i < arrayMword.length ; i++) {
-            outP.push(arrayMword[i]);
+            outP.push(wStack.pop());
         }
     }
 }
