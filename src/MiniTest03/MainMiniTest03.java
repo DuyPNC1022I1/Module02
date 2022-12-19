@@ -56,11 +56,12 @@ public class MainMiniTest03 {
                     StudentManager.rewriteInformatioOfStudentById(arrayStudent, arrayClassRoom, scanner);
                     break;
                 case 11:
+                    StudentManager.searchStudentByName(arrayStudent, scanner);
                     break;
                 case 0:
                     System.exit(0);
                 default:
-                    System.out.println("Vui lòng lựa chọn 0~11");
+                    System.out.println("Vui lòng lựa chọn lại 0~11");
             }
         }
         while (true);

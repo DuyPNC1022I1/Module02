@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MiniTest03/ClassRomManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniTest03/ClassRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniTest03/MainMiniTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniTest03/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniTest03/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/NodeNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/QueueNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackandqueue/MainStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackandqueue/MainStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiniTest03/ClassRomManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniTest03/ClassRomManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiniTest03/MainMiniTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniTest03/MainMiniTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiniTest03/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniTest03/StudentManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +166,8 @@
       <workItem from="1671329235020" duration="8835000" />
       <workItem from="1671383449719" duration="7740000" />
       <workItem from="1671412225297" duration="13957000" />
+      <workItem from="1671438222617" duration="251000" />
+      <workItem from="1671438491155" duration="6574000" />
     </task>
     <servers />
   </component>
@@ -207,6 +202,11 @@
           <url>file://$PROJECT_DIR$/src/minitestreload/MainStudent.java</url>
           <line>23</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MiniTest03/MainMiniTest03.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

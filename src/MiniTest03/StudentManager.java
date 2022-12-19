@@ -1,7 +1,6 @@
 package MiniTest03;
 
 import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class StudentManager {
@@ -117,13 +116,12 @@ public class StudentManager {
     //Hiển thị danh sách học viên theo lớp học
     public static void displayStudentByClass (ArrayList<Student> array, ArrayList<ClassRoom> arrayClass, Scanner scanner) {
         System.out.println("Chọn tên lớp học muốn hiển thị học viên: ");
-        chooseClassRoom(arrayClass, scanner);
-        String nameDisplay = chooseClassRoom(arrayClass, scanner).getName(); // Tên lớp của học viên
+        String nameDisplay = chooseClassRoom(arrayClass, scanner).getName();
         int index = 0;
         boolean flag = false;
         System.out.println("Danh sách học viên trong lớp vừa nhập là: ");
         for (int i = 0; i < array.size(); i++) {
-            if (Objects.equals(array.get(i).getName(), nameDisplay)) {
+            if (nameDisplay.equals(array.get(i).getClassRoom().getName())) {
                 flag = true;
                 index = i;
                 System.out.println(array.get(index));
@@ -134,4 +132,18 @@ public class StudentManager {
         }
     }
     //Tìm kiếm học viên theo tên gần đúng
+    public static void searchStudentByName(ArrayList<Student> array, Scanner scanner) {
+        System.out.println("Nhập vào tên cần tìm");
+        String nameSearch = scanner.nextLine();
+        boolean flag = false;
+        for (int i = 0; i < array.size(); i++) {
+            if (array.get(i).getName().toLowerCase().contains(nameSearch.toLowerCase())){
+                flag = true;
+                System.out.println("Thông tin học vin có tên vừa nhập là: " + array.get(i));
+            }
+        }
+        if (!flag) {
+            System.out.println("Không tìm thấy sinh viên có tên vừa nhập");
+        }
+    }
 }

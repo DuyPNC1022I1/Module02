@@ -3,12 +3,7 @@ package MiniTest03;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ClassRomManager extends ClassRoom {
-
-    public ClassRomManager(int id, String name, String schoolName) {
-        super(id, name, schoolName);
-    }
-
+public class ClassRomManager{
     //Tạo 1 lớp học
     public static ClassRoom creatClassRoom(Scanner scanner) {
         System.out.println("Nhập vào id lớp học: ");
