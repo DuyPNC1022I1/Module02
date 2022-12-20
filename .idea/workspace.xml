@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thuattoantimkiem/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuattoantimkiem/StringMaxSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="abstractandinterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thuattoantimkiem.BinarySearch" />
       <module name="Baitapmodule02" />
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minitestreload.MainStudent" />
+    <configuration name="StringMaxSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuattoantimkiem.StringMaxSize" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="minitestreload.*" />
+          <option name="PATTERN" value="thuattoantimkiem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StringMaxSize" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.MainMiniTest03" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MainStack" />
-        <item itemvalue="Application.MainStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +168,7 @@
       <workItem from="1671438222617" duration="251000" />
       <workItem from="1671438491155" duration="6574000" />
       <workItem from="1671445271507" duration="199000" />
-      <workItem from="1671498607860" duration="1910000" />
+      <workItem from="1671498607860" duration="10573000" />
     </task>
     <servers />
   </component>
