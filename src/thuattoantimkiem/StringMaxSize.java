@@ -6,11 +6,12 @@ import java.util.Scanner;
 public class StringMaxSize {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         System.out.print("Enter string: ");
         String string = input.nextLine();
 
         LinkedList<Character> max = new LinkedList<>();
+
+        //Sắp xếp chuỗi tăng dần
         for (int i = 0; i < string.length(); i++) {
             LinkedList<Character> list = new LinkedList<>();
             list.add(string.charAt(i));
@@ -19,6 +20,7 @@ public class StringMaxSize {
                     list.add(string.charAt(j));
                 }
             }
+            //Add phần tử vào mảng max + clear phần tử mảng list
             if (list.size() > max.size()) {
                 max.clear();
                 max.addAll(list);
