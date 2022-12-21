@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thuantoansapxep/BubbleSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuantoansapxep/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thuantoansapxep/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thuantoansapxep/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="abstractandinterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSortByStep">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thuantoansapxep.BubbleSort" />
       <module name="Baitapmodule02" />
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMaxSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thuattoantimkiem.StringMaxSize" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuantoansapxep.SelectionSort" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thuattoantimkiem.*" />
+          <option name="PATTERN" value="thuantoansapxep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.BubbleSortByStep" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.MainMiniTest03" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.StringMaxSize" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,8 @@
       <workItem from="1671498607860" duration="10573000" />
       <workItem from="1671523654126" duration="5988000" />
       <workItem from="1671558577399" duration="1742000" />
-      <workItem from="1671583986417" duration="9497000" />
+      <workItem from="1671583986417" duration="12882000" />
+      <workItem from="1671611493850" duration="1587000" />
     </task>
     <servers />
   </component>
