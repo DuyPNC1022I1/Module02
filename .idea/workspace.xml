@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thuantoansapxep/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ArrayException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
@@ -57,7 +57,20 @@
       <recent name="abstractandinterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.ArrayException">
+    <configuration name="ArrayException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ArrayException" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thuantoansapxep.BubbleSort" />
       <module name="Baitapmodule02" />
@@ -77,19 +90,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thuantoansapxep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainMiniTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MiniTest03.MainMiniTest03" />
-      <module name="Baitapmodule02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MiniTest03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.ArrayException" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BubbleSortByStep" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.MainMiniTest03" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSortByStep" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,11 @@
       <workItem from="1671523654126" duration="5988000" />
       <workItem from="1671558577399" duration="1742000" />
       <workItem from="1671583986417" duration="12882000" />
-      <workItem from="1671611493850" duration="1587000" />
+      <workItem from="1671611493850" duration="5542000" />
+      <workItem from="1671643525357" duration="1903000" />
+      <workItem from="1671645732819" duration="108000" />
+      <workItem from="1671671492956" duration="3223000" />
+      <workItem from="1671675464703" duration="5466000" />
     </task>
     <servers />
   </component>
@@ -207,6 +211,11 @@
           <url>file://$PROJECT_DIR$/src/minitestreload/MainStudent.java</url>
           <line>23</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/thuantoansapxep/BubbleSort.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
