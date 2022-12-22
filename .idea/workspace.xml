@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exception/ArrayException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/CalculationExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="abstractandinterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayException">
+  <component name="RunManager" selected="Application.CalculationExample">
     <configuration name="ArrayException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception.ArrayException" />
       <module name="Baitapmodule02" />
@@ -84,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thuantoansapxep.BubbleSortByStep" />
+    <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.CalculationExample" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thuantoansapxep.*" />
+          <option name="PATTERN" value="exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculationExample" />
         <item itemvalue="Application.ArrayException" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSortByStep" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +175,8 @@
       <workItem from="1671643525357" duration="1903000" />
       <workItem from="1671645732819" duration="108000" />
       <workItem from="1671671492956" duration="3223000" />
-      <workItem from="1671675464703" duration="5466000" />
+      <workItem from="1671675464703" duration="7282000" />
+      <workItem from="1671698004702" duration="2586000" />
     </task>
     <servers />
   </component>
