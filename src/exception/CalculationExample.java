@@ -20,7 +20,7 @@ public class CalculationExample {
             System.out.println("Phép chia:" + x / y);
             System.out.println("Phép cộng: " + x + y);
             System.out.println("Phép trừ: " + (x - y));
-        } catch (Exception e) {
+        } catch (ArithmeticException e) {
             System.err.println("Xảy ra ngoại lệ: " + e.getMessage());
         }
     }
