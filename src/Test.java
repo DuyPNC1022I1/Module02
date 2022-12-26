@@ -1,16 +1,21 @@
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Nhập vào giá trị của c: ");
-        String c = input.nextLine();
-        System.out.println("Nhập vào giá trị của a");
-        int a = input.nextInt();
-        System.out.println("Nhập vào giá trị của b:");
-        String b = input.nextLine();
-        System.out.println("Nhập vào giá trị của b:");
-        String d = input.nextLine();
+        int[] a = {1, 2, 3, 6, 4, 9, 10};
+        try {
+            FileOutputStream fileOutputStream = new FileOutputStream(args[0]);
+            DataOutputStream dataOutputStream = new DataOutputStream(fileOutputStream);
+            for (int i = 0; i < a.length; i++) {
+                dataOutputStream.writeInt(a[i]); //Ghi dữ liệu kiểu int
+                dataOutputStream.close();
+            }
+        }
+        catch (IOException e ) {
+            e.getMessage();
+        }
     }
 }
+
