@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/binaryIO/FileStudent" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binaryIO/MainStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binaryIO/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iotextfile/HuongDanJavaIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iotextfile/Test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iotextfile/Test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binaryIO/FileProduct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binaryIO/MainProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binaryIO/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binaryIO/Products.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/IllegalTriangleExecption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/IllegalTriangleExecption.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,19 +63,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.MainStudent">
-    <configuration name="ArrayException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ArrayException" />
-      <module name="Baitapmodule02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception.CalculationExample" />
       <module name="Baitapmodule02" />
@@ -99,6 +82,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binaryIO.MainProducts" />
+      <module name="Baitapmodule02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binaryIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +125,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainStudent" />
+        <item itemvalue="Application.MainProducts" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.IllegalTriangleExecption" />
         <item itemvalue="Application.CalculationExample" />
-        <item itemvalue="Application.ArrayException" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +188,9 @@
       <workItem from="1671783628231" duration="6416000" />
       <workItem from="1671988633077" duration="2131000" />
       <workItem from="1672017771619" duration="270000" />
-      <workItem from="1672018065782" duration="13650000" />
+      <workItem from="1672018065782" duration="17181000" />
+      <workItem from="1672074272999" duration="3691000" />
+      <workItem from="1672103017565" duration="2949000" />
     </task>
     <servers />
   </component>
