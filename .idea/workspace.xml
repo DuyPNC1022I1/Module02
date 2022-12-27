@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/binaryIO/FileProduct" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binaryIO/MainProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binaryIO/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binaryIO/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +56,7 @@
       <recent name="abstractandinterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainStudent">
+  <component name="RunManager" selected="Application.MainProducts">
     <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception.CalculationExample" />
       <module name="Baitapmodule02" />
@@ -124,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainStudent" />
         <item itemvalue="Application.MainProducts" />
+        <item itemvalue="Application.MainStudent" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.IllegalTriangleExecption" />
         <item itemvalue="Application.CalculationExample" />
@@ -190,7 +184,7 @@
       <workItem from="1672017771619" duration="270000" />
       <workItem from="1672018065782" duration="17181000" />
       <workItem from="1672074272999" duration="3691000" />
-      <workItem from="1672103017565" duration="2949000" />
+      <workItem from="1672103017565" duration="3436000" />
     </task>
     <servers />
   </component>

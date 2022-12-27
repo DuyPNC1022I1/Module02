@@ -12,6 +12,7 @@ public class MainProducts {
             System.out.println("1. Add product to file");
             System.out.println("2. Display product");
             System.out.println("3. Search product by name");
+            System.out.println("0. Exit");
             int choice = -1;
             try {
                 choice = Integer.parseInt(scanner.nextLine());
