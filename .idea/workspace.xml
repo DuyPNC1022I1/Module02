@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="" />
+    <list default="true" id="e05d8847-8552-47d8-85b4-f6d33b8758ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MiniTest04/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest04/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest04/CategoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest04/Drinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest04/FileSave" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest04/MainMinitest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest04/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest04/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,9 +67,9 @@
       <recent name="abstractandinterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainProducts">
-    <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.CalculationExample" />
+  <component name="RunManager" selected="Application.MainMinitest04">
+    <configuration name="IllegalTriangleExecption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.IllegalTriangleExecption" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
@@ -70,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IllegalTriangleExecption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.IllegalTriangleExecption" />
+    <configuration name="MainMinitest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiniTest04.MainMinitest04" />
       <module name="Baitapmodule02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.*" />
+          <option name="PATTERN" value="MiniTest04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainMinitest04" />
         <item itemvalue="Application.MainProducts" />
         <item itemvalue="Application.MainStudent" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.IllegalTriangleExecption" />
-        <item itemvalue="Application.CalculationExample" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +195,11 @@
       <workItem from="1672017771619" duration="270000" />
       <workItem from="1672018065782" duration="17181000" />
       <workItem from="1672074272999" duration="3691000" />
-      <workItem from="1672103017565" duration="3436000" />
+      <workItem from="1672103017565" duration="11489000" />
+      <workItem from="1672127454914" duration="8969000" />
+      <workItem from="1672195564659" duration="8753000" />
+      <workItem from="1672214683334" duration="2652000" />
+      <workItem from="1672229006241" duration="22368000" />
     </task>
     <servers />
   </component>

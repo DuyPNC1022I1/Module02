@@ -1,21 +1,21 @@
-import java.io.DataOutputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        int[] a = {1, 2, 3, 6, 4, 9, 10};
-        try {
-            FileOutputStream fileOutputStream = new FileOutputStream(args[0]);
-            DataOutputStream dataOutputStream = new DataOutputStream(fileOutputStream);
-            for (int i = 0; i < a.length; i++) {
-                dataOutputStream.writeInt(a[i]); //Ghi dữ liệu kiểu int
-                dataOutputStream.close();
+        Scanner input = new Scanner(System.in);
+        int choice = -1;
+        boolean check = true;
+        do {
+            try {
+                choice = Integer.parseInt(input.nextLine());
+                check = false;
+            }
+            catch (InputMismatchException e) {
+                e.printStackTrace();
             }
         }
-        catch (IOException e ) {
-            e.getMessage();
-        }
+        while (check);
     }
 }
 
