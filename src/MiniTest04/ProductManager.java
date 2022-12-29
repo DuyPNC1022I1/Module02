@@ -350,7 +350,7 @@ public class ProductManager implements Serializable {
             int indexWeightMax = -1;
             if (productManager.get(i) instanceof Candy) {
                 int indexCandy = i;
-                for (int j = i; j < productManager.size(); j++) {
+                for (int j = indexCandy; j < productManager.size(); j++) {
                     if (((Candy) productManager.get(j)).getWeight() > ((Candy) productManager.get(indexCandy)).getWeight()) {
                         indexWeightMax = j;
                         System.out.println(productManager.get(indexWeightMax));
@@ -422,9 +422,12 @@ public class ProductManager implements Serializable {
         boolean flag = false;
         for (int i = 0; i < productManager.size(); i++) {
             if (productManager.get(i) instanceof Drinks) {
-                if (((Drinks) productManager.get(i)).getBottleType().equals(bottleTypeToDisplay)) {
-                    System.out.println(productManager.get(i));
-                    flag = true;
+                int indexDrinks = i;
+                for (int j = indexDrinks; j < productManager.size(); j++) {
+                    if (((Drinks) productManager.get(i)).getBottleType().equals(bottleTypeToDisplay)) {
+                        System.out.println(productManager.get(j));
+                        flag = true;
+                    }
                 }
             }
         }
