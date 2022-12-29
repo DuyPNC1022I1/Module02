@@ -9,9 +9,6 @@ public class Product implements Serializable {
     private int quantity;
     private Category category;
 
-    public Product() {
-    }
-
     public Product(int id, String name, int price, int quantity, Category category) {
         this.id = id;
         this.name = name;

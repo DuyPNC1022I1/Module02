@@ -18,7 +18,7 @@ public class MainMinitest04 {
             System.out.println("3. Delete product by id");
             System.out.println("4. Display list of product");
             System.out.println("5. Display product by max price");
-            System.out.println("6. Display product by min price\"");
+            System.out.println("6. Display product by min price");
             System.out.println("7. Display product by max quantity");
             System.out.println("8. Display product by min quantity");
             System.out.println("9. Rewrite product by id");

@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ProductManager implements Serializable{
+public class ProductManager implements Serializable {
     private ArrayList<Product> productManager;
     private CategoryManager categoryManager;
 
@@ -23,7 +23,7 @@ public class ProductManager implements Serializable{
             System.out.println("Not exist Product in list");
         }
     }
-    
+
     public Product creatProduct(Scanner scanner) {
         System.out.println("Creat new product: ");
         int id = -1;
@@ -31,25 +31,28 @@ public class ProductManager implements Serializable{
         int price = -1;
         int quantity = -1;
         Category category = null;
-        try {
-        System.out.println("Enter id of product: ");
-        id = Integer.parseInt(scanner.nextLine());
-        System.out.println("Enter name of product: ");
-        name = scanner.nextLine();
-        System.out.println("Enter price of product: ");
-        price = Integer.parseInt(scanner.nextLine());
-        System.out.println("Enter quantity of product: ");
-        quantity = Integer.parseInt(scanner.nextLine());
-        System.out.println("Choose category of product: ");
-        category = choiceCategory(scanner);
+        boolean flag = true;
+        do {
+            try {
+                System.out.println("Enter id of product: ");
+                id = Integer.parseInt(scanner.nextLine());
+                System.out.println("Enter name of product: ");
+                name = scanner.nextLine();
+                System.out.println("Enter price of product: ");
+                price = Integer.parseInt(scanner.nextLine());
+                System.out.println("Enter quantity of product: ");
+                quantity = Integer.parseInt(scanner.nextLine());
+                System.out.println("Choose category of product: ");
+                category = choiceCategory(scanner);
+                flag = false;
+            } catch (IndexOutOfBoundsException | NumberFormatException e) {
+                System.out.println("Wrong format, re-enter!!!");
+            }
         }
-        catch (IndexOutOfBoundsException|NumberFormatException e) {
-            e.printStackTrace();
-            creatProduct(scanner);
-        }
+        while (flag);
         return new Product(id, name, price, quantity, category);
     }
-    
+
     public Category choiceCategory(Scanner scanner) {
         Category category;
         System.out.println("Enter choice category by Id: ");
@@ -100,7 +103,7 @@ public class ProductManager implements Serializable{
         }
         return index;
     }
-    
+
     //Xóa sản phẩm theo id
     public void deleteById(Scanner scanner) {
         int indexToDelete = searchIdOfProduct(scanner);
@@ -109,39 +112,45 @@ public class ProductManager implements Serializable{
             displayProductManager();
         }
     }
-    
+
     //Sửa sản phẩm theo id
     public void updateProductById(Scanner scanner) {
         int indexToRewrite = searchIdOfProduct(scanner);
+        boolean flag = true;
         if (indexToRewrite != -1) {
             System.out.println("Enter information to rewrite product ");
             for (int i = 0; i < productManager.size(); i++) {
                 if (i == indexToRewrite) {
-                    try {
-                        System.out.println("Enter new id of product: ");
-                        int id = Integer.parseInt(scanner.nextLine());
-                        productManager.get(i).setId(id);
-                        System.out.println("Enter new name of product: ");
-                        String name = scanner.nextLine();
-                        productManager.get(i).setName(name);
-                        System.out.println("Enter new price of product: ");
-                        int price = Integer.parseInt(scanner.nextLine());
-                        productManager.get(i).setPrice(price);
-                        System.out.println("Enter quantity of product: ");
-                        int quantity = Integer.parseInt(scanner.nextLine());
-                        productManager.get(i).setQuantity(quantity);
-                        System.out.println("Choose category of product: ");
-                        Category category = choiceCategory(scanner);
-                        productManager.get(i).setCategory(category);
-                    } catch (NumberFormatException e) {
-                        e.printStackTrace();
+                    do {
+                        try {
+                            System.out.println("Enter new id of product: ");
+                            int id = Integer.parseInt(scanner.nextLine());
+                            productManager.get(i).setId(id);
+                            System.out.println("Enter new name of product: ");
+                            String name = scanner.nextLine();
+                            productManager.get(i).setName(name);
+                            System.out.println("Enter new price of product: ");
+                            int price = Integer.parseInt(scanner.nextLine());
+                            productManager.get(i).setPrice(price);
+                            System.out.println("Enter quantity of product: ");
+                            int quantity = Integer.parseInt(scanner.nextLine());
+                            productManager.get(i).setQuantity(quantity);
+                            System.out.println("Choose category of product: ");
+                            Category category = choiceCategory(scanner);
+                            productManager.get(i).setCategory(category);
+                            flag = false;
+                        } catch (NumberFormatException e) {
+                            System.out.println("Wrong format, re-enter");
+                            ;
+                        }
                     }
+                    while (flag);
                 }
             }
             displayProductManager();
         }
     }
-    
+
     //Hiển thị sản phẩm có giá cao nhất
     public void displayProductByMaxPrice() {
         int indexMax = 0;
@@ -153,7 +162,7 @@ public class ProductManager implements Serializable{
         }
         System.out.println(productManager.get(indexMax));
     }
-    
+
     //Hiển thị sản phẩm có giá thấp nhất
     public void displayProductByMinPrice() {
         int indexMin = 0;
@@ -165,7 +174,7 @@ public class ProductManager implements Serializable{
         System.out.println("Product have min Price is: ");
         System.out.println(productManager.get(indexMin));
     }
-    
+
     //Hiển thị sản phẩm có quantity lớn nhất
     public void displayProductByQuantityMax() {
         int indexQuantityMax = 0;
@@ -177,7 +186,7 @@ public class ProductManager implements Serializable{
         System.out.println("Product have Max Quantity is: ");
         System.out.println(productManager.get(indexQuantityMax));
     }
-    
+
     //Hiển thị sản phẩm có quantity nhỏ nhất
     public void displayProductByQuantityMin() {
         int indexQuantityMin = 0;
@@ -230,12 +239,10 @@ public class ProductManager implements Serializable{
                 if (!flag) {
                     System.out.println("No products found for this price");
                 }
-            }
-            else {
+            } else {
                 System.out.println("Search fail because 'Not exist Category in list");
             }
-        }
-        catch (NumberFormatException e) {
+        } catch (NumberFormatException e) {
             e.printStackTrace();
         }
     }
@@ -255,8 +262,7 @@ public class ProductManager implements Serializable{
             if (!flag) {
                 System.out.println("No products found for this category");
             }
-        }
-        else {
+        } else {
             System.out.println("Search fail because 'Not exist Category in list");
         }
 
@@ -284,8 +290,7 @@ public class ProductManager implements Serializable{
             category = choiceCategory(scanner);
             System.out.println("Enter weight of product Candy: ");
             weight = Integer.parseInt(scanner.nextLine());
-        }
-        catch (IndexOutOfBoundsException|NumberFormatException e) {
+        } catch (IndexOutOfBoundsException | NumberFormatException e) {
             e.printStackTrace();
         }
         return new Candy(id, name, price, quantity, category, weight);
@@ -319,7 +324,7 @@ public class ProductManager implements Serializable{
     }
 
     //Tạo sản phẩm Drinks
-    public Drinks creatDrinks (Scanner scanner) {
+    public Drinks creatDrinks(Scanner scanner) {
         System.out.println("Creat new product Drinks: ");
         int id = -1;
         String name = null;
@@ -343,8 +348,7 @@ public class ProductManager implements Serializable{
             volume = Integer.parseInt(scanner.nextLine());
             System.out.println("Enter bottleType of product Drinks ");
             bootleType = scanner.nextLine();
-        }
-        catch (IndexOutOfBoundsException|NumberFormatException e) {
+        } catch (IndexOutOfBoundsException | NumberFormatException e) {
             e.printStackTrace();
         }
         return new Drinks(id, name, price, quantity, category, volume, bootleType);
@@ -352,7 +356,7 @@ public class ProductManager implements Serializable{
 
     //Thêm sản phẩm Drinks vào productManager
     public void addDrink(Scanner scanner) {
-        productManager.add((Product)creatDrinks(scanner));
+        productManager.add((Product) creatDrinks(scanner));
         displayProductManager();
     }
 
@@ -366,7 +370,7 @@ public class ProductManager implements Serializable{
     }
 
     //Hiển thị danh sách sản phẩm là Drinks + theo bottleType
-    public void displayDrinksByBottleType(Scanner scanner){
+    public void displayDrinksByBottleType(Scanner scanner) {
         System.out.println("Enter bottleType to display");
         String bottleTypeToDisplay = scanner.nextLine();
         boolean flag = false;
@@ -384,7 +388,7 @@ public class ProductManager implements Serializable{
     }
 
     //Hiển thị sản phẩm là Drinks có bootleType là thủy tinh và có giá lớn nhất trong đó
-    public void displayDrinkByBootleAndPrice () {
+    public void displayDrinkByBootleAndPrice() {
         int indexPriceMax = 0;
         for (int i = 0; i < productManager.size(); i++) {
             if (productManager.get(i) instanceof Drinks) {
