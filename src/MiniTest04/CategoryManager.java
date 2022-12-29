@@ -15,11 +15,16 @@ public class CategoryManager implements Serializable {
         System.out.println("Enter Information of Category: ");
         System.out.println("Enter id of Category: ");
         int id = -1;
-        try {
-            id = Integer.parseInt(scanner.nextLine());
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
+        boolean flag = true;
+        do {
+            try {
+                id = Integer.parseInt(scanner.nextLine());
+                flag = false;
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong format, re-enter!!!");
+            }
         }
+        while (flag);
         System.out.println("Enter name of Category: ");
         String name = scanner.nextLine();
         return new Category(id, name);
@@ -47,11 +52,16 @@ public class CategoryManager implements Serializable {
         int id = -1;
         int index = -1;
         boolean flag = false;
-        try {
-            id = Integer.parseInt(scanner.nextLine());
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
+        boolean check =  true;
+        do {
+            try {
+                id = Integer.parseInt(scanner.nextLine());
+                check = false;
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong format, re-check");;
+            }
         }
+        while (check);
         for (int i = 0; i < categoryManager.size(); i++) {
             if (id == categoryManager.get(i).getId()) {
                 flag = true;
@@ -82,13 +92,17 @@ public class CategoryManager implements Serializable {
             for (int i = 0; i < categoryManager.size(); i++) {
                 if (i == indexRewrite) {
                     System.out.println("Enter new id of Category: ");
-                    try {
-                        int id = Integer.parseInt(scanner.nextLine());
-                        categoryManager.get(i).setId(i);
+                    boolean check = true;
+                    do {
+                        try {
+                            int id = Integer.parseInt(scanner.nextLine());
+                            categoryManager.get(i).setId(i);
+                            check = false;
+                        } catch (NumberFormatException e) {
+                            System.out.println("Wrong format, re-enter!!!");;
+                        }
                     }
-                    catch (NumberFormatException e) {
-                        e.printStackTrace();
-                    }
+                    while (check);
                     System.out.println("Enter new name of Category");
                     String name = scanner.nextLine();
                     categoryManager.get(i).setName(name);
@@ -99,6 +113,6 @@ public class CategoryManager implements Serializable {
     }
 
     public Category getCategoryById(int id) {
-         return categoryManager.get(id);
+        return categoryManager.get(id);
     }
 }

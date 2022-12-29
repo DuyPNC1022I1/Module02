@@ -1,5 +1,7 @@
 package MiniTest04;
 
+import com.sun.corba.se.impl.encoding.CDROutputObject;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -24,6 +26,9 @@ public class ProductManager implements Serializable {
         }
     }
 
+    public void creatApstract(Scanner scanner) {
+
+    }
     public Product creatProduct(Scanner scanner) {
         System.out.println("Creat new product: ");
         int id = -1;
@@ -31,7 +36,7 @@ public class ProductManager implements Serializable {
         int price = -1;
         int quantity = -1;
         Category category = null;
-        boolean flag = true;
+        boolean check = true;
         do {
             try {
                 System.out.println("Enter id of product: ");
@@ -44,26 +49,34 @@ public class ProductManager implements Serializable {
                 quantity = Integer.parseInt(scanner.nextLine());
                 System.out.println("Choose category of product: ");
                 category = choiceCategory(scanner);
-                flag = false;
-            } catch (IndexOutOfBoundsException | NumberFormatException e) {
+                check = false;
+            } catch (NumberFormatException e) {
                 System.out.println("Wrong format, re-enter!!!");
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println("Index out of 'listCategory.length', re-enter");
             }
         }
-        while (flag);
+        while (check);
         return new Product(id, name, price, quantity, category);
     }
 
     public Category choiceCategory(Scanner scanner) {
         Category category;
-        System.out.println("Enter choice category by Id: ");
-        int idOfCategory = -1;
-        try {
-            idOfCategory = Integer.parseInt(scanner.nextLine());
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
+        System.out.println("Enter choice category by index: ");
+        int indexOfCategory = -1;
+        boolean check = true;
+        do {
+            try {
+                indexOfCategory = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong format, re-check");;
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println("Index out of 'listCategory.length', re-check");
+            }
         }
-        if (idOfCategory != -1) {
-            category = this.categoryManager.getCategoryById(idOfCategory);
+        while (check);
+        if (indexOfCategory != -1) {
+            category = this.categoryManager.getCategoryById(indexOfCategory);
         } else {
             category = this.categoryManager.creatCategory(scanner);
             categoryManager.addCategoryProduct(scanner);
@@ -85,11 +98,16 @@ public class ProductManager implements Serializable {
         System.out.println("Enter id to search:");
         int index = -1;
         int idToSearch = -1;
-        try {
-            idToSearch = Integer.parseInt(scanner.nextLine());
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
+        boolean check = true;
+        do {
+            try {
+                idToSearch = Integer.parseInt(scanner.nextLine());
+                check = false;
+            } catch (NumberFormatException e) {
+                e.printStackTrace();
+            }
         }
+        while(check);
         boolean flag = false;
         for (int i = 0; i < productManager.size(); i++) {
             if (productManager.get(i).getId() == idToSearch) {
@@ -116,11 +134,11 @@ public class ProductManager implements Serializable {
     //Sửa sản phẩm theo id
     public void updateProductById(Scanner scanner) {
         int indexToRewrite = searchIdOfProduct(scanner);
-        boolean flag = true;
         if (indexToRewrite != -1) {
             System.out.println("Enter information to rewrite product ");
             for (int i = 0; i < productManager.size(); i++) {
                 if (i == indexToRewrite) {
+                    boolean check = true;
                     do {
                         try {
                             System.out.println("Enter new id of product: ");
@@ -138,13 +156,14 @@ public class ProductManager implements Serializable {
                             System.out.println("Choose category of product: ");
                             Category category = choiceCategory(scanner);
                             productManager.get(i).setCategory(category);
-                            flag = false;
+                            check = false;
                         } catch (NumberFormatException e) {
                             System.out.println("Wrong format, re-enter");
-                            ;
+                        } catch (IndexOutOfBoundsException e) {
+                            System.out.println("Index out of 'listCategory.length', re-enter");
                         }
                     }
-                    while (flag);
+                    while (check);
                 }
             }
             displayProductManager();
@@ -223,28 +242,33 @@ public class ProductManager implements Serializable {
     //Tìm kiếm sản phẩm theo khoảng giá
     public void searchProductByPrice(Scanner scanner) {
         System.out.println("Enter price to search");
-        try {
-            System.out.println("Enter price upper");
-            int priceUpper = Integer.parseInt(scanner.nextLine());
-            System.out.println("Enter price lower");
-            int priceLower = Integer.parseInt(scanner.nextLine());
-            boolean flag = false;
-            if (!productManager.isEmpty()) {
-                for (int i = 0; i < productManager.size(); i++) {
-                    if (productManager.get(i).getPrice() >= priceLower && productManager.get(i).getPrice() <= priceUpper) {
-                        flag = true;
-                        System.out.println(productManager.get(i));
+        boolean check = true;
+        do {
+            try {
+                System.out.println("Enter price upper");
+                int priceUpper = Integer.parseInt(scanner.nextLine());
+                System.out.println("Enter price lower");
+                int priceLower = Integer.parseInt(scanner.nextLine());
+                boolean flag = false;
+                if (!productManager.isEmpty()) {
+                    for (int i = 0; i < productManager.size(); i++) {
+                        if (productManager.get(i).getPrice() >= priceLower && productManager.get(i).getPrice() <= priceUpper) {
+                            flag = true;
+                            System.out.println(productManager.get(i));
+                        }
                     }
+                    if (!flag) {
+                        System.out.println("No products found for this price");
+                    }
+                } else {
+                    System.out.println("Search fail because 'Not exist Category in list");
                 }
-                if (!flag) {
-                    System.out.println("No products found for this price");
-                }
-            } else {
-                System.out.println("Search fail because 'Not exist Category in list");
+                check = false;
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong format, re-enter");
             }
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
         }
+        while (check);
     }
 
     //Tìm kiếm sản phẩm theo loại
@@ -277,22 +301,28 @@ public class ProductManager implements Serializable {
         int quantity = -1;
         Category category = null;
         int weight = -1;
-        try {
-            System.out.println("Enter id of product Candy: ");
-            id = Integer.parseInt(scanner.nextLine());
-            System.out.println("Enter name of product Candy: ");
-            name = scanner.nextLine();
-            System.out.println("Enter price of product Candy: ");
-            price = Integer.parseInt(scanner.nextLine());
-            System.out.println("Enter quantity of product Candy: ");
-            quantity = Integer.parseInt(scanner.nextLine());
-            System.out.println("Choose category of product Candy: ");
-            category = choiceCategory(scanner);
-            System.out.println("Enter weight of product Candy: ");
-            weight = Integer.parseInt(scanner.nextLine());
-        } catch (IndexOutOfBoundsException | NumberFormatException e) {
-            e.printStackTrace();
+        boolean check = true;
+        do {
+            try {
+                System.out.println("Enter id of product Candy: ");
+                id = Integer.parseInt(scanner.nextLine());
+                System.out.println("Enter name of product Candy: ");
+                name = scanner.nextLine();
+                System.out.println("Enter price of product Candy: ");
+                price = Integer.parseInt(scanner.nextLine());
+                System.out.println("Enter quantity of product Candy: ");
+                quantity = Integer.parseInt(scanner.nextLine());
+                System.out.println("Choose category of product Candy: ");
+                category = choiceCategory(scanner);
+                System.out.println("Enter weight of product Candy: ");
+                weight = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong format, re-enter");
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println("Index out of 'listCategory.length' ,re-enter");
+            }
         }
+        while (check);
         return new Candy(id, name, price, quantity, category, weight);
     }
 
@@ -333,24 +363,31 @@ public class ProductManager implements Serializable {
         Category category = null;
         int volume = -1;
         String bootleType = null;
-        try {
-            System.out.println("Enter id of product Drinks: ");
-            id = Integer.parseInt(scanner.nextLine());
-            System.out.println("Enter name of product Drinks: ");
-            name = scanner.nextLine();
-            System.out.println("Enter price of product Drinks: ");
-            price = Integer.parseInt(scanner.nextLine());
-            System.out.println("Enter quantity of product Drinks: ");
-            quantity = Integer.parseInt(scanner.nextLine());
-            System.out.println("Choose category of product Drinks: ");
-            category = choiceCategory(scanner);
-            System.out.println("Enter volume of product Drinks: ");
-            volume = Integer.parseInt(scanner.nextLine());
-            System.out.println("Enter bottleType of product Drinks ");
-            bootleType = scanner.nextLine();
-        } catch (IndexOutOfBoundsException | NumberFormatException e) {
-            e.printStackTrace();
+        boolean check = true;
+        do {
+            try {
+                System.out.println("Enter id of product Drinks: ");
+                id = Integer.parseInt(scanner.nextLine());
+                System.out.println("Enter name of product Drinks: ");
+                name = scanner.nextLine();
+                System.out.println("Enter price of product Drinks: ");
+                price = Integer.parseInt(scanner.nextLine());
+                System.out.println("Enter quantity of product Drinks: ");
+                quantity = Integer.parseInt(scanner.nextLine());
+                System.out.println("Choose category of product Drinks: ");
+                category = choiceCategory(scanner);
+                System.out.println("Enter volume of product Drinks: ");
+                volume = Integer.parseInt(scanner.nextLine());
+                System.out.println("Enter bottleType of product Drinks ");
+                bootleType = scanner.nextLine();
+                check = false;
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong format, re-enter");
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println("Index out of 'listCategory.length', re-enter");
+            }
         }
+        while (check);
         return new Drinks(id, name, price, quantity, category, volume, bootleType);
     }
 
@@ -397,6 +434,8 @@ public class ProductManager implements Serializable {
                         indexPriceMax = i;
                         System.out.println(productManager.get(indexPriceMax));
                     }
+                } else {
+                    System.out.println("Can't find product the same price");
                 }
             }
         }
