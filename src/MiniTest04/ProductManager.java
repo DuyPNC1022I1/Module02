@@ -299,8 +299,11 @@ public class ProductManager implements Serializable {
         boolean check = true;
         do {
             try {
-                System.out.println("Enter id of product Candy");
-                id = Integer.parseInt(scanner.nextLine());
+                if (productManager.isEmpty()) {
+                    id = idAuto + 1;
+                } else {
+                    id = productManager.size() + 1;
+                }
                 System.out.println("Enter name of product Candy: ");
                 name = scanner.nextLine();
                 System.out.println("Enter price of product Candy: ");
@@ -330,6 +333,9 @@ public class ProductManager implements Serializable {
         for (Product product : productManager) {
             if (product instanceof Candy) {
                 System.out.println(product);
+            }
+            else {
+                System.out.println("Not have product is Candy");
             }
         }
     }
@@ -364,8 +370,11 @@ public class ProductManager implements Serializable {
         boolean check = true;
         do {
             try {
-                System.out.println("Enter id of product Drinks: ");
-                id = Integer.parseInt(scanner.nextLine());
+                if (productManager.isEmpty()) {
+                    id = idAuto + 1;
+                } else {
+                    id = productManager.size() + 1;
+                }
                 System.out.println("Enter name of product Drinks: ");
                 name = scanner.nextLine();
                 System.out.println("Enter price of product Drinks: ");
@@ -398,6 +407,9 @@ public class ProductManager implements Serializable {
         for (Product product : productManager) {
             if (product instanceof Drinks) {
                 System.out.println(product);
+            }
+            else {
+                System.out.println("Not have product is Drinks");
             }
         }
     }
