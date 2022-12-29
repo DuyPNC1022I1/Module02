@@ -150,13 +150,9 @@ public class ProductManager implements Serializable {
                             System.out.println("Enter quantity of product: ");
                             int quantity = Integer.parseInt(scanner.nextLine());
                             productManager.get(i).setQuantity(quantity);
-                            try {
-                                System.out.println("Choose category of product: ");
-                                Category category = choiceCategory(scanner);
-                                productManager.get(i).setCategory(category);
-                            } catch (IndexOutOfBoundsException e) {
-                                System.out.println("Index out of 'listCategory.length', re-enter");
-                            }
+                            System.out.println("Choose category of product: ");
+                            Category category = choiceCategory(scanner);
+                            productManager.get(i).setCategory(category);
                             check = false;
                         } catch (NumberFormatException e) {
                             System.out.println("Wrong format, re-enter");
@@ -311,12 +307,8 @@ public class ProductManager implements Serializable {
                 price = Integer.parseInt(scanner.nextLine());
                 System.out.println("Enter quantity of product Candy: ");
                 quantity = Integer.parseInt(scanner.nextLine());
-                try {
-                    System.out.println("Choose category of product Candy: ");
-                    category = choiceCategory(scanner);
-                } catch (IndexOutOfBoundsException e) {
-                    System.out.println("Index out of 'listCategory.length' ,re-enter");
-                }
+                System.out.println("Choose category of product Candy: ");
+                category = choiceCategory(scanner);
                 System.out.println("Enter weight of product Candy: ");
                 weight = Integer.parseInt(scanner.nextLine());
                 check = false;
@@ -344,7 +336,7 @@ public class ProductManager implements Serializable {
 
     //Hiển thị sản phẩm là candy + có weight lớn nhất
     public void displayCandyByMaxWeight() {
-        ArrayList<Candy> arrayCandy= new ArrayList<>();
+        ArrayList<Candy> arrayCandy = new ArrayList<>();
         int indexWeightMax = 0;
         for (int i = 0; i < productManager.size(); i++) {
             if (productManager.get(i) instanceof Candy) {
@@ -380,12 +372,8 @@ public class ProductManager implements Serializable {
                 price = Integer.parseInt(scanner.nextLine());
                 System.out.println("Enter quantity of product Drinks: ");
                 quantity = Integer.parseInt(scanner.nextLine());
-                try {
-                    System.out.println("Choose category of product Drinks: ");
-                    category = choiceCategory(scanner);
-                } catch (IndexOutOfBoundsException e) {
-                    System.out.println("Index out of 'listCategory.length', re-enter");
-                }
+                System.out.println("Choose category of product Drinks: ");
+                category = choiceCategory(scanner);
                 System.out.println("Enter volume of product Drinks: ");
                 volume = Integer.parseInt(scanner.nextLine());
                 System.out.println("Enter bottleType of product Drinks ");
