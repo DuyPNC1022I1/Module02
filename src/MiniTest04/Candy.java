@@ -21,6 +21,6 @@ public class Candy extends Product implements Serializable {
     @Override
     public String toString() {
         return super.toString()
-                + ", weight " + weight;
+                + ", weight = " + weight;
     }
 }
