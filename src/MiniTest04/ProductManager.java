@@ -69,10 +69,11 @@ public class ProductManager implements Serializable {
         do {
             try {
                 indexOfCategory = Integer.parseInt(scanner.nextLine());
+                check = false;
             } catch (NumberFormatException e) {
                 System.out.println("Wrong format, re-check");
             } catch (IndexOutOfBoundsException e) {
-                System.out.println("Index out of 'listCategory.length', re-check");
+                System.out.println("Index out of 'listCategory.length', re-enter");
             }
         }
         while (check);
