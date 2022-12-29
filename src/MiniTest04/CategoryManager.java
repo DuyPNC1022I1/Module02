@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class CategoryManager implements Serializable {
     private ArrayList<Category> categoryManager;
+    private  int idAuto = 0;
 
     public CategoryManager() {
         categoryManager = new ArrayList<Category>();
@@ -13,18 +14,13 @@ public class CategoryManager implements Serializable {
 
     public Category creatCategory(Scanner scanner) {
         System.out.println("Enter Information of Category: ");
-        System.out.println("Enter id of Category: ");
         int id = -1;
-        boolean flag = true;
-        do {
-            try {
-                id = Integer.parseInt(scanner.nextLine());
-                flag = false;
-            } catch (NumberFormatException e) {
-                System.out.println("Wrong format, re-enter!!!");
-            }
+        if (categoryManager.isEmpty()){
+            id = idAuto + 1;
         }
-        while (flag);
+        else {
+            id = categoryManager.size() + 1;
+        }
         System.out.println("Enter name of Category: ");
         String name = scanner.nextLine();
         return new Category(id, name);
@@ -91,18 +87,6 @@ public class CategoryManager implements Serializable {
             System.out.println("Enter information to rewrite Category: ");
             for (int i = 0; i < categoryManager.size(); i++) {
                 if (i == indexRewrite) {
-                    System.out.println("Enter new id of Category: ");
-                    boolean check = true;
-                    do {
-                        try {
-                            int id = Integer.parseInt(scanner.nextLine());
-                            categoryManager.get(i).setId(i);
-                            check = false;
-                        } catch (NumberFormatException e) {
-                            System.out.println("Wrong format, re-enter!!!");;
-                        }
-                    }
-                    while (check);
                     System.out.println("Enter new name of Category");
                     String name = scanner.nextLine();
                     categoryManager.get(i).setName(name);
