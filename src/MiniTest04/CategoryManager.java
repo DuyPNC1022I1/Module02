@@ -96,7 +96,12 @@ public class CategoryManager implements Serializable {
         displayCategory();
     }
 
-    public Category getCategoryById(int id) {
-        return categoryManager.get(id);
+    public Category getCategoryById(int idCategory) {
+        for (Category category : categoryManager) {
+            if (category.getId() == idCategory) {
+                return category;
+            }
+        }
+        return null;
     }
 }

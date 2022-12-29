@@ -63,22 +63,20 @@ public class ProductManager implements Serializable {
 
     public Category choiceCategory(Scanner scanner) {
         Category category;
-        System.out.println("Enter choice category by index: ");
-        int indexOfCategory = -1;
+        System.out.println("Enter choice category by id: ");
+        int idCategory = 0;
         boolean check = true;
         do {
             try {
-                indexOfCategory = Integer.parseInt(scanner.nextLine());
+                idCategory = Integer.parseInt(scanner.nextLine());
                 check = false;
             } catch (NumberFormatException e) {
                 System.out.println("Wrong format, re-enter");
-            } catch (IndexOutOfBoundsException e) {
-                System.out.println("Index out of 'listCategory.length', re-enter");
             }
         }
         while (check);
-        if (indexOfCategory != -1) {
-            category = this.categoryManager.getCategoryById(indexOfCategory);
+        if (idCategory != 0) {
+            category = this.categoryManager.getCategoryById(idCategory);
         } else {
             category = this.categoryManager.creatCategory(scanner);
             categoryManager.addCategoryProduct(scanner);
