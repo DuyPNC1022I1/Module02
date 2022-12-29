@@ -17,8 +17,8 @@ public class ProductManager implements Serializable {
     //Hiển thị danh sách sản phẩm
     public void displayProductManager() {
         if (!productManager.isEmpty()) {
-            for (int i = 0; i < productManager.size(); i++) {
-                System.out.println(productManager.get(i));
+            for (Product product : productManager) {
+                System.out.println(product);
             }
         } else {
             System.out.println("Not exist Product in list");
@@ -71,7 +71,7 @@ public class ProductManager implements Serializable {
                 indexOfCategory = Integer.parseInt(scanner.nextLine());
                 check = false;
             } catch (NumberFormatException e) {
-                System.out.println("Wrong format, re-check");
+                System.out.println("Wrong format, re-enter");
             } catch (IndexOutOfBoundsException e) {
                 System.out.println("Index out of 'listCategory.length', re-enter");
             }
@@ -226,9 +226,9 @@ public class ProductManager implements Serializable {
         System.out.println("Product have the same name is: ");
         if (!productManager.isEmpty()) {
             boolean flag = false;
-            for (int i = 0; i < productManager.size(); i++) {
-                if (productManager.get(i).getName().toLowerCase().equals(nameToSearch.toLowerCase())) {
-                    System.out.println(productManager.get(i));
+            for (Product product : productManager) {
+                if (product.getName().toLowerCase().contains(nameToSearch.toLowerCase())) {
+                    System.out.println(product);
                     flag = true;
                 }
             }
@@ -252,10 +252,10 @@ public class ProductManager implements Serializable {
                 int priceLower = Integer.parseInt(scanner.nextLine());
                 boolean flag = false;
                 if (!productManager.isEmpty()) {
-                    for (int i = 0; i < productManager.size(); i++) {
-                        if (productManager.get(i).getPrice() >= priceLower && productManager.get(i).getPrice() <= priceUpper) {
+                    for (Product product : productManager) {
+                        if (product.getPrice() >= priceLower && product.getPrice() <= priceUpper) {
                             flag = true;
-                            System.out.println(productManager.get(i));
+                            System.out.println(product);
                         }
                     }
                     if (!flag) {
@@ -278,10 +278,10 @@ public class ProductManager implements Serializable {
         Category category = choiceCategory(scanner);
         boolean flag = false;
         if (!productManager.isEmpty()) {
-            for (int i = 0; i < productManager.size(); i++) {
-                if (productManager.get(i).getCategory().equals(category)) {
+            for (Product product : productManager) {
+                if (product.getCategory().equals(category)) {
                     flag = true;
-                    System.out.println(productManager.get(i));
+                    System.out.println(product);
                 }
             }
             if (!flag) {
@@ -337,9 +337,9 @@ public class ProductManager implements Serializable {
 
     //Hiển thị danh sách sản phẩm là Candy
     public void displayProductIsCandy() {
-        for (int i = 0; i < productManager.size(); i++) {
-            if (productManager.get(i) instanceof Candy) {
-                System.out.println(productManager.get(i));
+        for (Product product : productManager) {
+            if (product instanceof Candy) {
+                System.out.println(product);
             }
         }
     }
@@ -349,13 +349,12 @@ public class ProductManager implements Serializable {
         for (int i = 0; i < productManager.size(); i++) {
             int indexWeightMax = -1;
             if (productManager.get(i) instanceof Candy) {
-                int indexCandy = i;
-                for (int j = indexCandy; j < productManager.size(); j++) {
-                    if (((Candy) productManager.get(j)).getWeight() > ((Candy) productManager.get(indexCandy)).getWeight()) {
+                for (int j = i; j < productManager.size(); j++) {
+                    if (((Candy) productManager.get(j)).getWeight() > ((Candy) productManager.get(i)).getWeight()) {
                         indexWeightMax = j;
-                        System.out.println(productManager.get(indexWeightMax));
                     }
                 }
+                System.out.println(productManager.get(indexWeightMax));
             }
         }
     }
@@ -408,9 +407,9 @@ public class ProductManager implements Serializable {
 
     //Hiển thị danh sách sản phẩm là Drinks
     public void displayDrinks() {
-        for (int i = 0; i < productManager.size(); i++) {
-            if (productManager.get(i) instanceof Drinks) {
-                System.out.println(productManager.get(i));
+        for (Product product : productManager) {
+            if (product instanceof Drinks) {
+                System.out.println(product);
             }
         }
     }
@@ -420,20 +419,16 @@ public class ProductManager implements Serializable {
         System.out.println("Enter bottleType to display");
         String bottleTypeToDisplay = scanner.nextLine();
         boolean flag = false;
-        for (int i = 0; i < productManager.size(); i++) {
-            if (productManager.get(i) instanceof Drinks) {
-                int indexDrinks = i;
-                for (int j = indexDrinks; j < productManager.size(); j++) {
-                    if (((Drinks) productManager.get(i)).getBottleType().equals(bottleTypeToDisplay)) {
-                        System.out.println(productManager.get(j));
-                        flag = true;
-                    }
+        for (Product product : productManager) {
+            if (product instanceof Drinks) {
+                if (((Drinks) product).getBottleType().equals(bottleTypeToDisplay)) {
+                    System.out.println(product);
+                    flag = true;
                 }
             }
         }
-        if (!flag) {
+        if (!flag)
             System.out.println("No products found for this bottleType");
-        }
     }
 
     //Hiển thị sản phẩm là Drinks có bootleType là thủy tinh và có giá lớn nhất trong đó
