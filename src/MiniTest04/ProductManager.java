@@ -347,11 +347,14 @@ public class ProductManager implements Serializable {
     //Hiển thị sản phẩm là candy + có weight lớn nhất
     public void displayCandyByMaxWeight() {
         for (int i = 0; i < productManager.size(); i++) {
+            int indexWeightMax = -1;
             if (productManager.get(i) instanceof Candy) {
-                int indexWeightMax = 0;
-                if (((Candy) productManager.get(i)).getWeight() > ((Candy) productManager.get(indexWeightMax)).getWeight()) {
-                    indexWeightMax = i;
-                    System.out.println(productManager.get(indexWeightMax));
+                int indexCandy = i;
+                for (int j = i; j < productManager.size(); j++) {
+                    if (((Candy) productManager.get(j)).getWeight() > ((Candy) productManager.get(indexCandy)).getWeight()) {
+                        indexWeightMax = j;
+                        System.out.println(productManager.get(indexWeightMax));
+                    }
                 }
             }
         }
