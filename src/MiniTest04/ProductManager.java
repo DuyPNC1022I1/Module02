@@ -305,7 +305,7 @@ public class ProductManager implements Serializable {
         boolean check = true;
         do {
             try {
-                System.out.println("Enter id of product Candy: ");
+                System.out.println("Enter id of product Candy");
                 id = Integer.parseInt(scanner.nextLine());
                 System.out.println("Enter name of product Candy: ");
                 name = scanner.nextLine();
